@@ -35,48 +35,29 @@ h1 {
   line-height: 1.1;
 }
 
-button {
+.btn {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-.btn{
-  background-color: red;
-  color: white;
   margin-left: 20px;
-  transition: .5s;
-  border-radius: 7px;
-  
+  background: rgb(1, 102, 1);
+  color: rgb(255, 255, 255);
+  margin: 10px;
 }
 
-.btn:hover{
-  background-color: green;
-  
-}
 
 .in{
-  padding: 10px;
-  border: 2px solid black;
-  outline: none;
+  padding: 7px;
 }
 
-.in:focus{
-  border: solid green;
-}
+
+
+
 
 @media (prefers-color-scheme: light) {
   :root {
